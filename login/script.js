@@ -9,7 +9,7 @@ const pwdInput = document.querySelector('.password');
 
 loginBtn.addEventListener('click', () => {
     if(idInput.value !== '' && pwdInput.value !== ''){
-        location.href = "../News%20Feed%20Page/index.html";
+        location.href = "/Home/home.html";
     }
     else{
         alert('Wrong Password or User Info.')

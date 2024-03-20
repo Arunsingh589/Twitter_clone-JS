@@ -158,6 +158,11 @@ body{
     background-color: #1aa1f5;
     color: #fff;
 }
+.sign-up a{
+    text-decoration: none;
+    color: white;
+
+}
 .sign-up:hover{
     background-color: #0f5d8d;
 }
@@ -166,6 +171,11 @@ body{
 }
 .log-in:hover{
     background-color: #d9ebf7;
+}
+.log-in a{
+    text-decoration: none;
+    color: black;
+
 }
 /* end of right */
 

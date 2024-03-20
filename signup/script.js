@@ -8,15 +8,15 @@ const pwdInput = document.querySelector('.password');
 /* ************************************************************* */
 
 loginBtn.addEventListener('click', () => {
-    location.href = './Login%20Page/index.html';
+    location.href = '/Home/home.html';
 });
 
 topLoginBtn.addEventListener('click', ()=>{
     if(idInput.value !== '' && pwdInput.value !== ''){
-        location.href = './News%20Feed%20Page/index.html';
+        location.href = '/Home/home.html';
     }
     else{
         alert('Wrong Password or User Info.')
-        location.href = './Login%20Page/index.html';
+        location.href = '/Login/login.html';
     }
 });
